@@ -1,0 +1,6 @@
+Am o rugaminte la voi, pentru laboratorul de maine. 
+As dori sa parcurgeti pdf-ul pe care l-am atasat in invitatie. 
+Sunt prerechizitele pentru laborator: 
+	sa instalati java, intellij si git, 
+	ca sa putem sa ne distram maine scriind niste cod. 
+Daca intampinati probleme, sa-mi spune-ti, va rog.
