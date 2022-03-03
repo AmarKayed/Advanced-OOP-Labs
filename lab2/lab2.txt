@@ -1,0 +1,53 @@
+In Java we can extend only one class at a time.
+
+IntelliJ Code With Me:
+    Near the Execute Button we have a person silhouette symbol.
+    Click on that > Join Another IDE as Participant > Paste Shared Link
+
+In Java we have a default constructor that contains no argument.
+
+Variables have a default value as followind:
+    int, float, double will be initialized with 0
+    String will be initialized with null
+    boolean will be initialized with false
+
+Creating Enum:
+    Right Click on the package > New > Java Class > Enum
+
+Generate Automatic Getters and Setters:
+    Right Click on the Code > Generate > Getters and Setters
+    and then select the attributes for which you want to generate
+    the getters and setters.
+
+    Or:
+        Alt + Insert
+
+To rename all appearances of a variable we use:
+    Click on the variable name > Shift + F6
+
+    Or:
+        Right Click Class > Refractor > Rename
+
+
+Exercise:
+    Bird bird1 = new Bird(1, "Lisa");
+    Bird bird2 = new Bird(1, "Lisa");
+    Bird bird3 = bird1;
+
+    System.out.println(bird1 == bird2);
+    // This will output false, because bird1 == bird2 compares the references.
+    System.out.println(bird1 == bird3);
+    // This will output true, because it is the same reference.
+
+
+Change the behaviour of ==:
+    Right Click > Generate > Override Methods > equals()
+
+    In Java we cannot override operators, but
+    we know that == uses the Object.equals()
+    method, thus we can instead override the equals()
+    method.
+
+
+Formatting:
+    CTRL + Alt + L
