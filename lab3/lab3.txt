@@ -1,0 +1,31 @@
+Singleton == Design Pattern
+
+
+Singleton is used when we want to create a class that contains a single object
+of its type.
+
+The Java Spring Framework uses a lot of classes that are by default Singleton
+
+
+
+Singleton Steps:
+
+    1. The Singleton class must have a private constructor
+    2. In the Singleton class we will have a static attribute that contains an instance of that class
+    3. In the Singleton class we will have a static method that returns the instance of the class
+
+
+Refractoring guru
+Site: https://refactoring.guru/design-patterns/singleton
+
+
+
+To create an abstract class we use the "abstract" access modifier:
+    public abstract class AbstractClass{
+
+    }
+
+To create an abstract class method we use "abstract" along with ;
+    public abstract String getName();
+
+String-ul in Java este immutable
